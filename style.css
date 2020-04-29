@@ -1,0 +1,148 @@
+.head {
+  position: relative;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+.headtitlefirtsline{
+  position: absolute;
+  bottom: 30%;
+  left: 25%;
+  font-family: 'Abril Fatface', cursive;
+  font-size:45px;
+}
+.headtitlesecondline{
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  font-family: 'Abril Fatface', cursive;
+  font-size:80px;
+}
+.intro{
+  font-family: 'Josefin Sans', sans-serif;/*betutipus*/
+  font-size:20px; /*méret*/
+  color:#222222; /*szín*/
+  line-height: 1.5;  /*sorköz*/
+  margin-left:auto; /*margo jobb-bal "középre"*/
+  margin-right:auto; /*margo jobb-bal "középre"*/
+  width:57%; /*mekkora szélességet használjon az oldalból*/
+  padding:50px 0px 30px 0px; /*a tömb margóit belülről határozza meg*/
+}
+
+.intro_li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  list-style-type: square;
+  line-height: 1.5;
+  margin-left:320px;
+  padding-bottom:40px;
+}
+.box1::before {
+  content: '”';
+  position:relative;
+  left:-10px;
+  top:-40px;
+  font-family: 'Abril Fatface', cursive;
+  font-size:100px;
+}
+.box1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size:50px;
+  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  padding-right:30px;
+  background:#343434;
+  width:800px;
+  height:160px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom:40px;
+}
+.sub1{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  line-height: 1.5;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+  text-transform:uppercase; /*végig nagy*/
+  width:57%;
+}
+.paratitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  margin-left:auto;
+  margin-right:auto;
+  width:57%;
+  margin-bottom:30px;
+}
+.para1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:16px;
+  line-height:1.5;
+  margin-left:auto;
+  margin-right:auto;
+  width:57%;
+  margin-bottom:30px;
+}
+.box2::before {
+  content: '”';
+  position:relative;
+  left:0px;
+  top:-80px;
+  font-family: 'Abril Fatface', cursive;
+  font-size:100px;
+}
+.box2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size:50px;
+  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  padding-right:30px;
+  background:#343434;
+  width:800px;
+  height:240px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom:40px;
+}
+.paratitle_nomargin{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  margin-left:auto;
+  margin-right:auto;
+  width:57%;
+}
+.para2{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-style:italic;
+  font-size:16px;
+  line-height:1.5;
+  margin-left:auto;
+  margin-right:auto;
+  width:57%;
+  margin-bottom:30px;
+}
+.main_li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:16px;
+  list-style-type: square;
+  line-height: 1.5;
+  margin-left:320px;
+  padding-bottom:40px;
+}
+.blackline{
+  border: 2px solid #343434;
+  margin-left:auto;
+  margin-right:auto;
+  width:57%; 
+  margin-bottom:40px;
+}
